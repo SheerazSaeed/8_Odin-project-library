@@ -1,0 +1,30 @@
+<!--<div id="library-container"></div>: This is a container where all your books will be displayed. It's like a shelf in a real library but in your webpage.
+
+<button id="new-book-btn">NEW BOOK</button>: This is a button. When you click it, it will open a form to enter a new book's details.
+
+<dialog id="new-book-dialog">...</dialog>: This is a dialog box. It's like a popup that contains the form to enter the details of the new book (title, author, pages, and read status).
+
+<form id="new-book-form">...</form>: This is the form inside the dialog. You fill this out to add a new book. It has fields for the title, author, number of pages, and a checkbox to mark if you've read the book.
+
+<script src="scripts.js"></script>: This links the JavaScript file (where all the actions and behaviors are defined) to your HTML page.
+
+JavaScript:
+This is where you define what happens when you interact with the webpage, like clicking buttons or submitting forms.
+
+let myLibrary = [];: This is your book library. Right now, it's an empty shelf waiting for books.
+
+function Book(...){...}: This is like a blueprint for a book. It defines what information a book will have (title, author, pages, read).
+
+function addBookToLibrary(...) {...}: This is like adding a book to your shelf. It takes a book's details, creates a new book using the blueprint, and puts it on your shelf.
+
+function displayBooks() {...}: This is like arranging your books on the shelf so you can see them. It goes through your shelf (myLibrary), takes each book, and makes a visual representation of it on the webpage.
+
+function removeBook(index) {...} and function toggleReadStatus(index) {...}: These are like picking a book from your shelf to remove it or to mark it as read/unread.
+
+Event Listeners (addEventListener): These are like instructions for what to do when you click the "NEW BOOK" button or submit the form. For example, when you click "NEW BOOK", it shows the form. When you submit the form, it adds the new book to your shelf.
+
+document.getElementById('new-book-dialog').showModal(); and document.getElementById('new-book-dialog').close();: These are like instructions for showing and hiding the dialog box (the popup with the form).
+
+event.preventDefault();: This is like saying, "Don't do the default thing (like sending your form data somewhere else); do what I'm telling you instead."
+
+That's the simplified explanation. Each part of the code has a specific job, and they all work together to let you manage your library on the webpage! -->
